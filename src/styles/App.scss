@@ -1,0 +1,30 @@
+@import 'utils/reset.scss';
+@import 'utils/normalize.scss';
+@import 'components/toDoList.scss';
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  // background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #1f1f1f;
+  background: #282c34;
+}
+
+.app-wrapper {
+  padding: 32px;
+  height: 100vh;
+}
+
+.title_h1 {
+  color: #fff;
+  text-align: center;
+}
