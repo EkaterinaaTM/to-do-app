@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // input for task
-const Todo = ({ addTodo }) => {
+const TodoInput = ({ addTodo }) => {
   const [value, setValue] = useState('');
 
   // add task to TODO-list
@@ -25,4 +25,4 @@ const Todo = ({ addTodo }) => {
   );
 };
 
-export default Todo;
+export default TodoInput;
